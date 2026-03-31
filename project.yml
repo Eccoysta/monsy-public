@@ -1,0 +1,20 @@
+name: Monsy
+options:
+  bundleIdPrefix: com.eccoysta
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+targets:
+  Monsy:
+    type: application
+    platform: iOS
+    deploymentTarget: 17.0
+    sources:
+      - path: Monsy
+    resources:
+      - path: Monsy/Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.eccoysta.monsy
+        GENERATE_INFOPLIST_FILE: YES
