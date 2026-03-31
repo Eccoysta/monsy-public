@@ -1,0 +1,178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F6010000000001 /* MonsyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010000000011 /* MonsyApp.swift */; };
+		A1B2C3D4E5F6010000000002 /* MonsteraModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010000000012 /* MonsteraModels.swift */; };
+		A1B2C3D4E5F6010000000003 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010000000013 /* AppServices.swift */; };
+		A1B2C3D4E5F6010000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010000000014 /* ContentView.swift */; };
+		A1B2C3D4E5F6010000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010000000015 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F6010000000010 /* Monsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F6010000000011 /* MonsyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsyApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000012 /* MonsteraModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsteraModels.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000013 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F6010000000020 = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000021 /* Monsy */,
+			A1B2C3D4E5F6010000000022 /* Products */,
+		); sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000021 /* Monsy */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000023 /* App */,
+			A1B2C3D4E5F6010000000024 /* Models */,
+			A1B2C3D4E5F6010000000025 /* Resources */,
+			A1B2C3D4E5F6010000000026 /* Services */,
+			A1B2C3D4E5F6010000000027 /* Views */,
+		); path = Monsy; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000023 /* App */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000011 /* MonsyApp.swift */,
+		); path = App; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000024 /* Models */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000012 /* MonsteraModels.swift */,
+		); path = Models; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000025 /* Resources */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000015 /* Assets.xcassets */,
+		); path = Resources; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000026 /* Services */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000013 /* AppServices.swift */,
+		); path = Services; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000027 /* Views */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000014 /* ContentView.swift */,
+		); path = Views; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010000000022 /* Products */ = {isa = PBXGroup; children = (
+			A1B2C3D4E5F6010000000010 /* Monsy.app */,
+		); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F6010000000030 /* Monsy */ = {isa = PBXNativeTarget; buildConfigurationList = A1B2C3D4E5F6010000000040 /* Build configuration list for PBXNativeTarget \"Monsy\" */; buildPhases = (
+			A1B2C3D4E5F6010000000031 /* Sources */,
+			A1B2C3D4E5F6010000000032 /* Frameworks */,
+			A1B2C3D4E5F6010000000033 /* Resources */,
+		); buildRules = (
+		); dependencies = (
+		); name = Monsy; productName = Monsy; productReference = A1B2C3D4E5F6010000000010 /* Monsy.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F6010000000050 /* Project object */ = {isa = PBXProject; attributes = {
+			BuildIndependentTargetsInParallel = 1;
+			LastSwiftUpdateCheck = 9999;
+			LastUpgradeCheck = 9999;
+			TargetAttributes = {
+				A1B2C3D4E5F6010000000030 = {
+					CreatedOnToolsVersion = 16.0;
+				};
+			};
+		}; buildConfigurationList = A1B2C3D4E5F6010000000041 /* Build configuration list for PBXProject \"Monsy\" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (
+			en,
+			Base,
+		); mainGroup = A1B2C3D4E5F6010000000020; productRefGroup = A1B2C3D4E5F6010000000022 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (
+			A1B2C3D4E5F6010000000030 /* Monsy */,
+		); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F6010000000033 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A1B2C3D4E5F6010000000005 /* Assets.xcassets in Resources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F6010000000031 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A1B2C3D4E5F6010000000001 /* MonsyApp.swift in Sources */,
+			A1B2C3D4E5F6010000000002 /* MonsteraModels.swift in Sources */,
+			A1B2C3D4E5F6010000000003 /* AppServices.swift in Sources */,
+			A1B2C3D4E5F6010000000004 /* ContentView.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F6010000000032 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F6010000000060 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+			CLANG_ENABLE_MODULES = YES;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			GENERATE_INFOPLIST_FILE = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = Monsy;
+			INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+			INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/Frameworks",
+			);
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.eccoysta.monsy;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Debug; };
+		A1B2C3D4E5F6010000000061 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+			CLANG_ENABLE_MODULES = YES;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			GENERATE_INFOPLIST_FILE = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			INFOPLIST_KEY_CFBundleDisplayName = Monsy;
+			INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+			INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/Frameworks",
+			);
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.eccoysta.monsy;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F6010000000040 /* Build configuration list for PBXNativeTarget "Monsy" */ = {isa = XCConfigurationList; buildConfigurations = (
+			A1B2C3D4E5F6010000000060 /* Debug */,
+			A1B2C3D4E5F6010000000061 /* Release */,
+		); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A1B2C3D4E5F6010000000041 /* Build configuration list for PBXProject "Monsy" */ = {isa = XCConfigurationList; buildConfigurations = (
+			A1B2C3D4E5F6010000000060 /* Debug */,
+			A1B2C3D4E5F6010000000061 /* Release */,
+		); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A1B2C3D4E5F6010000000050 /* Project object */;
+}
